@@ -1,0 +1,9 @@
+<!--pages/home/page.wxml-->
+<text class="title">hello world</text>
+
+<view>nihao {{name}}</view>
+<view wx:for="{{list}}" wx:key="id">{{item.id}}:{{item.name}}</view>
+
+<view>统计： {{counter}}</view>
+<button size="mini" bindtap="add">+</button>
+<button size="mini" bindtap="remove">-</button>

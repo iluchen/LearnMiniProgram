@@ -1,5 +1,40 @@
 {
   "pages": [
-    "pages/home/page"
-  ]
+    "pages/home/home",
+    "pages/about/about",
+    "pages/button/button",
+    "pages/text/text"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FF6D8A",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序🍗",
+    "backgroundColor": "orange",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FF6D8A",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "assets/tabbar/about.png",
+        "selectedIconPath": "assets/tabbar/about_active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
 }

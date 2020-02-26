@@ -1,0 +1,22 @@
+<!--pages/text/text.wxml-->
+<!-- 用来测试text组件功能 -->
+
+<!-- 类似于 span -->
+<text>nihao \n</text>
+<text>ceshi\n</text>
+
+<!-- 默认text 内容长按无法被选中，需要加selectable属性 -->
+<text selectable="true">这行是加了selectable属性的text内容\n</text>
+<text selectable>这行是加了selectable属性的text内容\n</text>
+
+<!-- space 用来决定文本空格大小,值为ensp，emsp，nbsp,默认空格大小是英文空格 -->
+<text>hello world,这行没有加space属性\n</text>
+<text>中文 之间的空格\n</text>
+<text space="nbsp">hello world,这行加上space nbsp属性\n</text>
+<text space="ensp">hello world,这行加上space ensp属性\n</text>
+<text space="emsp">hello world,这行加上space emsp属性\n</text>
+
+<!-- decode 是否解码 -->
+<!-- 如果属性值为boolean类型的话，只需要填写属性名，默认值为true -->
+<text>测试 &gt;\n</text>
+<text decode>测试 &gt;\n</text>

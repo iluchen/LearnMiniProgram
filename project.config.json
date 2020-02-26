@@ -12,7 +12,7 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.9.3",
+	"libVersion": "2.10.1",
 	"appid": "wxe7cd666a42ea9df8",
 	"projectname": "MiniProgram",
 	"debugOptions": {
@@ -30,13 +30,29 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/button/button",
+					"pathName": "pages/button/button",
+					"query": "",
+					"scene": null
+				}
+			]
 		}
 	}
 }
