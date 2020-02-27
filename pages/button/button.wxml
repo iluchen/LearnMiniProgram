@@ -18,4 +18,4 @@
 <button loading="true">按钮</button>
 
 <!-- hover-class -->
-<button hover-class="press">按钮</button>
+<button class="basic-btn" hover-class="press">按钮</button>

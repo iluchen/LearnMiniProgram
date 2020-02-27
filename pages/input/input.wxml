@@ -1,0 +1,13 @@
+<!--pages/input/input.wxml-->
+<!-- input组件使用 -->
+
+<!-- value 默认值 -->
+<input value="测试"></input>
+
+<!-- type 类型 -->
+<input type="number" value="{{val}}" bindinput="getInput"></input>
+
+<!-- 完整表单使用 form 整体提交 -->
+<button bindtap="getData">获取input数据</button>
+
+<text>{{val}}</text>

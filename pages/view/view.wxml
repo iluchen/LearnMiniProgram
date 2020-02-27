@@ -1,0 +1,7 @@
+<!--pages/view/view.wxml-->
+<!-- view 相当于 div -->
+<view>show</view>
+<view>time</view>
+
+<!-- hover-class，view组件按下显示的样式 -->
+<view class="box" hover-class="class-hover">box</view>

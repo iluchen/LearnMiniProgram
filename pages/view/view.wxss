@@ -1,0 +1,10 @@
+/* pages/view/view.wxss */
+.box {
+  border: 1px solid pink;
+  width: 100px;
+  height: 100px;
+}
+.class-hover {
+  background: orange;
+  font-size: 18px;
+}

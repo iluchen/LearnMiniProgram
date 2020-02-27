@@ -47,8 +47,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/button/button",
-					"pathName": "pages/button/button",
+					"name": "pages/form/form",
+					"pathName": "pages/form/form",
 					"query": "",
 					"scene": null
 				}

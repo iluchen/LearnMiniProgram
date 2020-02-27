@@ -1,0 +1,10 @@
+<!--pages/form/form.wxml-->
+<!-- form表单 -->
+
+<!-- bindsubmit在表单中按钮点击绑定时生效 -->
+<form bindsubmit="formSubmit">
+  <!-- name 为提交数据的key -->
+  <input name='inputTest'></input>
+  <switch name='switch'></switch>
+  <button formType="submit">保存</button>
+</form>

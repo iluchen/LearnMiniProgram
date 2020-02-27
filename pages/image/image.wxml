@@ -1,0 +1,7 @@
+<!--pages/image/image.wxml-->
+<text>通过打开相册显示图片</text>
+
+<button bindtap="openImage">open image</button>
+<image 
+show-menu-by-longpress
+ src="{{path}}"></image>
