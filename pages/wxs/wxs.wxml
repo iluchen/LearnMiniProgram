@@ -1,0 +1,15 @@
+<!--pages/wxs/wxs.wxml-->
+<!-- 关于wxs的使用
+  因为在wxml中不能直接使用js脚本中的函数，所以需要使用wxs来实现脚本处理
+   -->
+
+
+<view>{{ceshi.msg}}</view>
+
+<wxs module="ceshi">
+  var msg = 'hello kugou'
+
+  module.exports = {
+    msg: msg
+  }
+</wxs>

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/wxs/wxs",
     "pages/home/home",
     "pages/about/about",
     "pages/button/button",
@@ -46,5 +47,6 @@
     "connectSocket": 20000,
     "uploadFile": 20000,
     "downloadFile": 20000
-  }
+  },
+  "sitemapLocation": "sitemap68.json"
 }
