@@ -5,14 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    counter: 0,
+    list: ['首页', '购物车', '我的', '更多'],
+    content: ''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      content: this.data.list[0]
+    })
   },
 
   /**
@@ -62,5 +66,16 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  add(event) {
+    // 额外传的数据在event detail中获取
+    this.setData({
+      counter: ++this.data.counter
+    })
+  },
+  handleItem(event) {
+    this.setData({
+      content: event.detail.item
+    })
   }
 })

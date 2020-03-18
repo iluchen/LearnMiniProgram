@@ -1,0 +1,5 @@
+<!--components/my-style/my-style.wxml-->
+<view class="title">修改组件样式，和引用部分样式名相同是否会造成影响</view>
+
+
+<!-- 组件中不能使用id 属性 标签选择器 -->

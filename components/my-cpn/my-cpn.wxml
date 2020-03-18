@@ -1,0 +1,3 @@
+<!--components/my-cpn/my-cpn.wxml-->
+<view>标题</view>
+<view>我是内容。</view>

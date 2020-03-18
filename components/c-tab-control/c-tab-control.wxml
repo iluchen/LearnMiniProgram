@@ -1,0 +1,6 @@
+<!--components/c-tab-control/c-tab-control.wxml-->
+<view class="tab">
+  <view bind:tap="changeTab" wx:for="{{data}}" wx:key="index" class="item {{curIndex === index ? 'active': ''}}" data-index="{{index}}">
+    <text class="line">{{item}}</text>
+  </view>
+</view>

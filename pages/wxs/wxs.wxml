@@ -6,6 +6,30 @@
 
 <view>{{ceshi.msg}}</view>
 
+<!-- 使用自定义组件 -->
+<my-cpn />
+
+<!-- 全局使用自定义组件 -->
+<global-cpn />
+
+<!-- 组件中样式类名和组件引用类名相同是否会修改引用中的样式 -->
+<!-- 可以在自定义组件中设置 styleIsolution -->
+<view class="title">这是当前页面.title内容</view>
+<my-style />
+
+<!-- 给自定义组件传递数据 -->
+<my-data title="这是页面给的标题" titleclass="red"/> 
+<my-data /> 
+
+<!-- 自定义组件事件相应 -->
+<view>这是当前的计数：{{counter}}</view>
+<my-event bind:add="add" />
+
+<!-- 自定义组件的实现 -->
+<tab-control bind:clickItem="handleItem" data="{{list}}"/>
+<view>当前选中：{{content}}</view>
+
+
 <wxs module="ceshi">
   var msg = 'hello kugou'
 

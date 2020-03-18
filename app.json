@@ -48,5 +48,8 @@
     "uploadFile": 20000,
     "downloadFile": 20000
   },
-  "sitemapLocation": "sitemap68.json"
+  "sitemapLocation": "sitemap68.json",
+  "usingComponents": {
+    "global-cpn": "/components/global-cpn/global-cpn"
+  }
 }

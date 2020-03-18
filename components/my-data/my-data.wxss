@@ -1,0 +1,5 @@
+/* components/my-data/my-data.wxss */
+/* 外界样式影响要写到外部页面的wxss中，此处无效 */
+.red {
+  color: green;
+}

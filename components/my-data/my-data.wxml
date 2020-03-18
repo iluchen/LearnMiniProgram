@@ -1,0 +1,4 @@
+<!--components/my-data/my-data.wxml-->
+
+<view class="titleclass">{{title}}</view>
+<view>我是内容，我由外部页面决定</view>
