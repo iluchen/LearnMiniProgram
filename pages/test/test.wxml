@@ -1,0 +1,13 @@
+<!--pages/test/test.wxml-->
+<!-- <page bindchangePage="changePage"></page> -->
+<user-list curSelect="{{childSelectArr.length + selectArr.length}}" bindselectAll="selectAll" data="users"></user-list>
+<view>
+  <checkbox-group bindchange="checkboxChange">
+    <block wx:for="{{users}}" wx:key="id">
+      <view style="display: flex;">
+        <checkbox value="{{item.id}}"></checkbox> {{item.name}}
+        <view data-id="{{item.id}}" bindtap="itemSelect">更多</view>
+      </view>
+    </block>
+  </checkbox-group>
+</view>

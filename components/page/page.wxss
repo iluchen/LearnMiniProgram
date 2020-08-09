@@ -1,0 +1,5 @@
+/* components/page/page.wxss */
+.page {
+  display: flex;
+  justify-content: space-between;
+}

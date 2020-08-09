@@ -1,0 +1,8 @@
+/* components/user-list/user-list.wxss */
+.user-list {
+
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}

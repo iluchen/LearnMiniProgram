@@ -1,0 +1,14 @@
+<view class="user-list">
+  <view class="head">
+    <view>
+      <checkbox-group bindchange="selectAll">全选
+        <checkbox value="all"/>
+      </checkbox-group>
+    </view>
+    <view>当前已选择 {{curSelect}}/{{allSelect}} 几个单位</view>
+  </view>
+  <view>
+  {{data}}
+    <view wx:if="{{item.level === level}}" wx:for="{{data}}" wx:key="id">{{item.name}}</view>
+  </view>
+</view>

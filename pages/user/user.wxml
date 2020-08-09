@@ -1,0 +1,11 @@
+<!--pages/user/user.wxml-->
+<view>
+    <button bindtap="prev">上一层</button>
+    <checkbox-group>
+      <view wx:for="{{curList}}"  wx:key="id" style="display: flex;">
+        <checkbox bindtap="check" data-id="{{item.id}}" checked="{{item.checked}}"></checkbox> {{item.name}}
+        <view data-id="{{item.id}}" bindtap="more" wx:if="{{item.child && item.child.length> 0}}">更多</view>
+      </view>
+    </checkbox-group>
+  <view></view>
+</view>

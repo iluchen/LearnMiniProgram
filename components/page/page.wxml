@@ -1,0 +1,6 @@
+<view wx:if="{{allPage > 1}}" class="page">
+  <view class="btn" bindtap="prev">上一页</view>
+  <!-- 这里的总页数之后通过total limit计算得出 -->
+  <view>{{curPage}}/{{allPage}}</view>
+  <view class="btn" bindtap="next">下一页</view>
+</view>
